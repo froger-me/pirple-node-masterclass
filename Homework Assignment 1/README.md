@@ -27,20 +27,20 @@ route `/hello?name=pirple`
 }
 ```
 
-route `/hello` with POST raw text "This is some silly test":
+route `/hello` with POST raw text "This is some silly test" (random Mocking Spongebob capitalisation):
 
 ```
 {
 	"hello": "Hello World! (try and give me a GET parameter \"name\")",
-	"content": "THIS IS SOME SILLY TEST"
+	"content": "ThIS iS SOmE SIlLY TesT""
 }
 ```
 
-route `/hello?name=pirple `with POST raw text "This is some silly test":
+route `/hello?name=pirple `with POST raw text "This is some silly test" (random Mocking Spongebob capitalisation):
 
 ```
 {
 	"hello": "Hello Pirple!",
-	"content": "THIS IS SOME SILLY TEST"
+	"content": "ThIS iS SOmE SIlLY TesT""
 }
 ```
