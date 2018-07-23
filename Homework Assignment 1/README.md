@@ -14,7 +14,7 @@ route `/hello` :
 ```
 {
 	"hello": "Hello World! (try and give me a GET parameter \"name\")",
-	"content": "Let's shout your raw content out loud! (try to send some raw text in with the POST method)"
+	"content": "Send me content and I will childishly mock you! (try to send some raw text in with the POST method)"
 }
 ```
 
@@ -23,7 +23,7 @@ route `/hello?name=pirple`
 ```
 {
 	"hello": "Hello Pirple!",
-	"content": "Let's shout your raw content out loud! (try to send some raw text in with the POST method)"
+	"content": "Send me content and I will childishly mock you! (try to send some raw text in with the POST method)"
 }
 ```
 
